@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.ASPCore31", "Utilities.ASPCore31\Utilities.ASPCore31.csproj", "{5AF64789-3F81-4540-85DA-12EB3D36B845}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities.ASPCore31", "Utilities.ASPCore31\Utilities.ASPCore31.csproj", "{5AF64789-3F81-4540-85DA-12EB3D36B845}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +21,14 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2A2963D-C422-4BB8-A3FC-6D8A7F2C1A34}
+	EndGlobalSection
+	GlobalSection(AutomaticVersions) = postSolution
+		UpdateAssemblyVersion = True
+		UpdateAssemblyFileVersion = False
+		UpdateAssemblyInfoVersion = False
+		AssemblyVersionSettings = None.None.None.Increment
+		UpdatePackageVersion = False
+		AssemblyInfoVersionType = SettingsVersion
+		InheritWinAppVersionFrom = None
 	EndGlobalSection
 EndGlobal
